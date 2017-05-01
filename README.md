@@ -9,7 +9,8 @@ programs from Github.
 
 steps to execute:
 1. consider any github project and download it to your local machine
-2. include the following plugin:
+2. include the following plugin
+
 	<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -27,7 +28,8 @@ steps to execute:
 			     	</property>
 			     </properties>  
         </configuration>
-      </plugin>  
+      </plugin>
+      
 3. if there is any dependency error regarding asm then make sure to include asm-5.2 jar and mention it as dependency in pom file
 	<dependency>
       <groupId>asm</groupId>
