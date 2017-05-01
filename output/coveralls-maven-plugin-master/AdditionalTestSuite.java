@@ -1,0 +1,49 @@
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+@RunWith(Suite.class)
+@SuiteClasses({
+org.eluder.coveralls.maven.plugin.util.WildcardsTest.class,
+org.eluder.coveralls.maven.plugin.httpclient.CoverallsProxyClientTest.class,
+org.eluder.coveralls.maven.plugin.service.BambooTest.class,
+org.eluder.coveralls.maven.plugin.httpclient.HttpClientFactoryTest.class,
+org.eluder.coveralls.maven.plugin.service.ShippableTest.class,
+org.eluder.coveralls.maven.plugin.util.ExistingFilesTest.class,
+org.eluder.coveralls.maven.plugin.service.TravisTest.class,
+org.eluder.coveralls.maven.plugin.validation.JobValidatorTest.class,
+org.eluder.coveralls.maven.plugin.domain.GitRepositoryTest.class,
+org.eluder.coveralls.maven.plugin.logging.DryRunLoggerTest.class,
+org.eluder.coveralls.maven.plugin.util.CoverageParsersFactoryTest.class,
+org.eluder.coveralls.maven.plugin.httpclient.CoverallsClientTest.class,
+org.eluder.coveralls.maven.plugin.logging.CoverageTracingLoggerTest.class,
+org.eluder.coveralls.maven.plugin.json.JsonWriterTest.class,
+org.eluder.coveralls.maven.plugin.source.DirectorySourceLoaderTest.class,
+org.eluder.coveralls.maven.plugin.util.UrlUtilsTest.class,
+org.eluder.coveralls.maven.plugin.logging.JobLoggerTest.class,
+org.eluder.coveralls.maven.plugin.service.AppveyorTest.class,
+org.eluder.coveralls.maven.plugin.source.ScanSourceLoaderTest.class,
+org.eluder.coveralls.maven.plugin.service.GeneralTest.class,
+org.eluder.coveralls.maven.plugin.util.Md5DigestInputStreamTest.class,
+org.eluder.coveralls.maven.plugin.service.JenkinsTest.class,
+org.eluder.coveralls.maven.plugin.EnvironmentTest.class,
+org.eluder.coveralls.maven.plugin.service.AbstractServiceSetupTest.class,
+org.eluder.coveralls.maven.plugin.source.MultiSourceLoaderTest.class,
+org.eluder.coveralls.maven.plugin.validation.ValidationErrorsTest.class,
+org.eluder.coveralls.maven.plugin.validation.ValidationExceptionTest.class,
+org.eluder.coveralls.maven.plugin.parser.CoberturaParserTest.class,
+org.eluder.coveralls.maven.plugin.domain.JobTest.class,
+org.eluder.coveralls.maven.plugin.parser.SagaParserTest.class,
+org.eluder.coveralls.maven.plugin.ProcessingExceptionTest.class,
+org.eluder.coveralls.maven.plugin.service.WerckerTest.class,
+org.eluder.coveralls.maven.plugin.domain.SourceTest.class,
+org.eluder.coveralls.maven.plugin.source.UniqueSourceCallbackTest.class,
+org.eluder.coveralls.maven.plugin.util.SourceLoaderFactoryTest.class,
+org.eluder.coveralls.maven.plugin.service.CircleTest.class,
+org.eluder.coveralls.maven.plugin.CoverallsReportMojoTest.class,
+org.eluder.coveralls.maven.plugin.source.UrlSourceLoaderTest.class,
+org.eluder.coveralls.maven.plugin.util.TimestampParserTest.class,
+org.eluder.coveralls.maven.plugin.validation.ValidationErrorTest.class,
+org.eluder.coveralls.maven.plugin.parser.JaCoCoParserTest.class
+})
+public class AdditionalTestSuite {
+}

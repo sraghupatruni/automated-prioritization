@@ -1,0 +1,6 @@
+io.budgetapp.util.UtilTest.testLastMonth
+io.budgetapp.util.UtilTest.testYesterday
+io.budgetapp.util.UtilTest.testLastWeek
+io.budgetapp.util.UtilTest.testBetweenDate
+io.budgetapp.util.UtilTest.testInMonth
+io.budgetapp.util.UtilTest.testIsoDate

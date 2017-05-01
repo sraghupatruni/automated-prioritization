@@ -1,0 +1,5 @@
+org.asciidoctor.maven.test.AsciidoctorRefreshMojoTest
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest
+org.asciidoctor.maven.test.AsciidoctorHttpMojoTest
+org.asciidoctor.maven.test.AsciidoctorMojoTest
+org.asciidoctor.maven.test.AsciidoctorZipMojoTest

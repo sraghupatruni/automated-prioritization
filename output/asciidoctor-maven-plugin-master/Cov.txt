@@ -1,0 +1,63 @@
+org.asciidoctor.maven.test.AsciidoctorHttpMojoTest.http front should let access rendered files
+org.asciidoctor.maven.test.AsciidoctorHttpMojoTest.default page
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.fails because processor is not found in classpath
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.plugin fails because processor throws an uncaught exception
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.tests that a Preprocessor is registered, initialized and executed
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.tests that a Treeprocessor is registered, initialized and executed
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.tests that a Postprocessor is registered, initialized and executed
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.tests that a DocinfoProcessor is registered, initialized and executed
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.tests that a IncludeProcessor is registered, initialized and executed
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html with a preprocessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html with a blockprocessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html and adds meta tag with a DocinfoProcessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html and modifies output with a BlockMacroProcessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html and modifies output with a InlineMacroProcessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html and modifies output with an IncludeProcessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.executes the same preprocessor twice
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.successfully renders html with Preprocessor, DocinfoProcessor, InlineMacroProcessor and IncludeProcessor
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest.renders html when using all types of extensions
+org.asciidoctor.maven.test.AsciidoctorMojoTest.renders docbook
+org.asciidoctor.maven.test.AsciidoctorMojoTest.renders html
+org.asciidoctor.maven.test.AsciidoctorMojoTest.docinfo file should be ignored html
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should honor doctype set in document
+org.asciidoctor.maven.test.AsciidoctorMojoTest.asciidoc file extension can be changed
+org.asciidoctor.maven.test.AsciidoctorMojoTest.header footer is enabled by default
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should require library
+org.asciidoctor.maven.test.AsciidoctorMojoTest.embedding resources
+org.asciidoctor.maven.test.AsciidoctorMojoTest.missing-attribute skip
+org.asciidoctor.maven.test.AsciidoctorMojoTest.missing-attribute drop
+org.asciidoctor.maven.test.AsciidoctorMojoTest.missing-attribute drop-line
+org.asciidoctor.maven.test.AsciidoctorMojoTest.undefined-attribute drop
+org.asciidoctor.maven.test.AsciidoctorMojoTest.undefined-attribute drop-line
+org.asciidoctor.maven.test.AsciidoctorMojoTest.setting_boolean_values
+org.asciidoctor.maven.test.AsciidoctorMojoTest.unsetting_boolean_values
+org.asciidoctor.maven.test.AsciidoctorMojoTest.test_imageDir_properly_passed
+org.asciidoctor.maven.test.AsciidoctorMojoTest.includes_test
+org.asciidoctor.maven.test.AsciidoctorMojoTest.skip
+org.asciidoctor.maven.test.AsciidoctorMojoTest.issue-78
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting should be rendered when set in the document header
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting - coderay
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting - highlight.js
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting - prettify
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting - pygments
+org.asciidoctor.maven.test.AsciidoctorMojoTest.code highlighting - nonExistent
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should replicate source structure-standard paths
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should replicate source structure-complex paths
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should not replicate source structure-complex paths
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should replicate source structure-no baseDir rewrite
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should not replicate source structure-baseDir rewrite
+org.asciidoctor.maven.test.AsciidoctorMojoTest.project-version test
+org.asciidoctor.maven.test.AsciidoctorMojoTest.github files can be included
+org.asciidoctor.maven.test.AsciidoctorMojoTest.command line attributes replace configurations
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should skip processing when source directory does no exist
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should only convert documents and not copy any resources when resources directory does no exist
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should only render a single file and not copy any resource
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should copy all resources (2 directories with filters) into output folder
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should render GitHub README alone
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should not include files in hidden directories (prefixes with underscore)
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should not crash when enabling maven-resource filtering
+org.asciidoctor.maven.test.AsciidoctorMojoTest.should exclude custom source document Extensions by default
+org.asciidoctor.maven.test.AsciidoctorRefreshMojoTest.auto render when source updated
+org.asciidoctor.maven.test.AsciidoctorZipMojoTest.zip it
+org.asciidoctor.maven.test.AsciidoctorZipMojoTest.should replicate source structure in zip-standard paths
+org.asciidoctor.maven.test.AsciidoctorZipMojoTest.should not replicate source structure in zip-standard paths

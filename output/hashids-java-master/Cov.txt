@@ -1,0 +1,16 @@
+org.hashids.HashidsTest.test_one_number
+org.hashids.HashidsTest.test_randomness
+org.hashids.HashidsTest.test_specifying_custom_hash_length
+org.hashids.HashidsTest.test_specifying_custom_hash_alphabet
+org.hashids.HashidsTest.test_randomness_for_incrementing_numbers
+org.hashids.HashidsTest.test_issue10
+org.hashids.HashidsTest.test_issue23
+org.hashids.HashidsTest.test_issue30
+org.hashids.HashidsTest.test_issue31
+org.hashids.HashidsTest.test_issue32
+org.hashids.HashidsTest.test_large_number_not_supported
+org.hashids.HashidsTest.test_large_number
+org.hashids.HashidsTest.test_for_vlues_greater_int_maxval
+org.hashids.HashidsTest.test_serveral_numbers
+org.hashids.HashidsTest.test_randomness_for_incrementing
+org.hashids.HashidsTest.test_wrong_decoding

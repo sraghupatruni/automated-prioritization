@@ -1,0 +1,2 @@
+fayder.restcountries.v1.CountryServiceTest : 0
+fayder.restcountries.v2.CountryServiceTest : 0

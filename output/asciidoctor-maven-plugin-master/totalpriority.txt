@@ -1,0 +1,5 @@
+org.asciidoctor.maven.test.AsciidoctorRefreshMojoTest : 0
+org.asciidoctor.maven.test.AsciidoctorMojoExtensionsTest : 0
+org.asciidoctor.maven.test.AsciidoctorHttpMojoTest : 0
+org.asciidoctor.maven.test.AsciidoctorMojoTest : 0
+org.asciidoctor.maven.test.AsciidoctorZipMojoTest : 0
