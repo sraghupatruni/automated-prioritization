@@ -1,0 +1,33 @@
+Let me give an example project on which I have implemented this tool:
+
+URL: 
+
+charts4j,19518f2c21df0408fcd98d15819eb6d67d5e1936,https://github.com/julienchastang/charts4j
+
+Implementation steps:
+1. Include the plugin as shown below in pom.xml 
+  <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+
+
+          <configuration>
+          	<argLine>-javaagent:C:\Sites\automated-prioritization\target\agent.jar</argLine> 
+			     <additionalClasspathElements>
+             <additionalClasspathElement>${project.build.sourceDirectory}</additionalClasspathElement>
+             <additionalClasspathElement>${project.build.testSourceDirectory}</additionalClasspathElement>
+          </additionalClasspathElements>
+
+           <properties>
+			     	<property>
+			     		<name>listener</name>
+			     		<value>edu.utdallas.JUnitExecListener</value>
+			     	</property>
+			     </properties>  
+        </configuration>
+      </plugin>
+      
+ 2. Open command prompt at the project directory and type 
+ mvn test
+ 
+ I have included the pom file and the output results of this in output folder
