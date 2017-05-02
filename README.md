@@ -7,6 +7,8 @@ for the project under test, the user should be able to directly run the
 prioritized tests with "mvn test" command. Evaluate the tool on 10 real world
 programs from Github.
 
+Example project: https://github.com/julienchastang/charts4j
+
 steps to execute:
 1. consider any github project and download it to your local machine
 2. include the following plugin
@@ -40,10 +42,10 @@ steps to execute:
       <systemPath>${project.basedir}/asm-5.2.jar</systemPath>
   </dependency>
   ```
-4. Open command prompt and navigate to the directory where the GitHub project is downloaded and run the following command:
-	```
+  
+4. Open command prompt and navigate to the directory where the GitHub project is downloaded and run the following command
 	mvn test
-	```
+
 5. Now, the total and additional files gets generated.
 
 Note: kindly check the output folder where I have included the output and pom details of the ten github projects on which I have run the tool.
